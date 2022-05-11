@@ -1,0 +1,106 @@
+{
+  "vendor": "kayserltda",
+  "name": "oferta-relampago",
+  "version": "0.0.1",
+  "title": "oferta-relampago",
+  "description": "component-template",
+  "defaultLocale": "es",
+  "builders": {
+    "messages": "1.x",
+    "store": "0.x",
+    "react": "3.x"
+  },
+  "mustUpdateAt": "2019-04-02",
+  "scripts": {
+    "postreleasy": "vtex publish --verbose"
+  },
+  "dependencies": {
+    "vtex.search-graphql": "0.x",
+    "vtex.styleguide": "9.x",
+    "vtex.css-handles": "0.x",
+    "vtex.order-manager": "0.x",
+    "vtex.order-items": "0.x",
+    "vtex.checkout-resources": "0.x",
+    "vtex.product-context": "0.x",
+    "vtex.pixel-manager": "1.x",
+    "vtex.store-resources": "0.x",
+    "vtex.native-types": "0.x",
+    "vtex.render-runtime": "8.x",
+    "vtex.checkout-graphql": "0.x",
+    "vtex.store-graphql": "2.x",
+    "vtex.apps-graphql": "3.x"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema",
+  "settingsSchema": {
+    "title": "Ofertas Relampago",
+    "type": "object",
+    "properties": {
+      "title1": {
+        "title": "PRIMERA OFERTA RELÁMPAGO",
+        "type": "null"
+      },
+      "startdate1": {
+        "title": "Fecha Inicio",
+        "description": "Ingresar la fecha y hora de inicio de la primera oferta",
+        "type": "string",
+        "format": "date-time"
+      },
+      "enddate1": {
+        "title": "Fecha Termino",
+        "description": "Ingresar la fecha y hora de termino de la primera oferta",
+        "type": "string",
+        "format": "date-time"
+      },
+      "idCollection1": {
+        "title": "ID colección primera oferta",
+        "description": "Ingresar el ID de la colección de la primera oferta",
+        "type": "number",
+        "exclusiveMinimum": 0
+      },
+      "title2": {
+        "title": "SEGUNDA OFERTA RELÁMPAGO",
+        "type": "null"
+      },
+      "startdate2": {
+        "title": "Fecha Inicio",
+        "description": "Ingresar la fecha y hora de inicio de la segunda oferta",
+        "type": "string",
+        "format": "date-time"
+      },
+      "enddate2": {
+        "title": "Fecha Termino",
+        "description": "Ingresar la fecha y hora de termino de la primera oferta",
+        "type": "string",
+        "format": "date-time"
+      },
+      "idCollection2": {
+        "title": "ID colección segunda oferta",
+        "description": "Ingresar el ID de la colección de la segunda oferta",
+        "type": "number",
+        "exclusiveMinimum": 0
+      },
+      "title3": {
+        "title": "TERCERA OFERTA RELÁMPAGO",
+        "type": "null"
+      },
+      "startdate3": {
+        "title": "Fecha Inicio",
+        "description": "Ingresar la fecha y hora de inicio de la tercera oferta",
+        "type": "string",
+        "format": "date-time"
+      },
+      "enddate3": {
+        "title": "Fecha Termino",
+        "description": "Ingresar la fecha y hora de termino de la primera oferta",
+        "type": "string",
+        "format": "date-time"
+      },
+      "idCollection3": {
+        "title": "ID colección tercera oferta",
+        "description": "Ingresar el ID de la colección de la tercera oferta",
+        "type": "number",
+        "exclusiveMinimum": 0
+      }
+    }
+  }
+}

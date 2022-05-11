@@ -1,0 +1,6 @@
+query{
+  appSettings(app: "kayserltda.oferta-relampago")
+  @context(provider: "vtex.apps-graphql"){
+    message
+  }
+}
