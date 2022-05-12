@@ -5,6 +5,9 @@
   "title": "oferta-relampago",
   "description": "component-template",
   "defaultLocale": "es",
+  "registries": [
+    "smartcheckout"
+  ],
   "builders": {
     "messages": "1.x",
     "store": "0.x",
