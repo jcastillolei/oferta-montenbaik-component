@@ -1,7 +1,7 @@
 {
   "vendor": "casamarilla",
   "name": "oferta-relampago-pp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "title": "oferta-relampago",
   "description": "component-template",
   "defaultLocale": "es",
@@ -16,7 +16,9 @@
   },
   "billingOptions": {
     "type": "free",
-    "availableCountries" : ["*"]
+    "availableCountries": [
+      "*"
+    ]
   },
   "dependencies": {
     "vtex.search-graphql": "0.x",
