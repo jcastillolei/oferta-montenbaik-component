@@ -1,13 +1,17 @@
 {
-  "vendor": "propulsowcl",
+  "vendor": "casamarilla",
   "name": "oferta-relampago-pp",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "title": "oferta-relampago",
   "description": "component-template",
   "defaultLocale": "es",
   "registries": [
     "smartcheckout"
   ],
+  "billingOptions": {
+    "type": "free",
+    "availableCountries" : ["*"]
+  },
   "builders": {
     "messages": "1.x",
     "store": "0.x",
