@@ -1,0 +1,6 @@
+query{
+  appSettings(app: "montenbaikcl.oferta-relampago-pp-mnt")
+  @context(provider: "vtex.apps-graphql"){
+    message
+  }
+}

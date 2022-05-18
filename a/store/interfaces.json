@@ -1,0 +1,11 @@
+{
+  "oferta-relampago1": {
+    "component": "pack1"
+  },
+  "oferta-relampago2": {
+    "component": "pack2"
+  },
+  "oferta-relampago3": {
+    "component": "pack3"
+  }
+}

@@ -1,0 +1,21 @@
+query($col: String!){
+  products(hideUnavailableItems: true, from: 0, to: 49, collection: $col ) @context(provider: "vtex.search-graphql")
+ {
+    productId
+    productName
+    link
+  items {
+    itemId
+    name
+    nameComplete
+    sellers{
+      commertialOffer {
+        ListPrice
+      }
+    }
+    images {
+      imageUrl
+    }
+  }
+    }
+}
